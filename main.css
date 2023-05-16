@@ -1,0 +1,633 @@
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    margin: 0;
+    overscroll-behavior: none;
+    background: lightcyan;
+}
+
+
+nav {
+    background-color: salmon;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.search img {
+    position: absolute;
+    top: 35px;
+    width: 35px;
+    height: 35px;
+
+}
+
+.fa.fa-shopping-cart {
+    position: absolute;
+    top: 32.5px;
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+
+.fa.fa-shopping-cart span {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 45px;
+    top: 17px;
+}
+
+.icons  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.search img {
+    flex-basis: calc(20% - 60px);
+    margin: 10px 40px;
+    text-align: center;
+    right: 75px;
+}
+
+.fa.fa-shopping-cart {
+    flex-basis: calc(20% - 60px);
+    margin: 10px 40px;
+    text-align: center;
+    right: 0px;
+}
+
+
+.title img {
+    width: 275px;
+    position: absolute;
+    left: 40%;
+    top: 10px;
+}
+
+.main img {
+    width: 400px;
+    position: absolute;
+    left: 5%;
+    top: 300px;
+}
+
+.typewriter h1 {
+    font-size: 90px;
+    font-weight: bolder;
+    position: absolute;
+    left: 55%;
+    top: 200px;
+}
+
+.main h5 {
+    position: absolute;
+    color: black;
+    left: 45%;
+    top: 360px;
+    width: 700px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.button {
+    background-color: salmon;
+    border: 3px solid black;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 800px;
+    left: 62.5%;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #ff7f5a;
+}
+
+.news h1 {
+    width: 700px;
+    position: absolute;
+    left: 5%;
+    top: -150px;
+    font-size: 75px;
+}
+
+.new {
+    position: absolute;
+    top: 1000px;
+}
+
+
+.new-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.new-item {
+    flex-basis: calc(20% - 60px);
+    margin: 10px 40px;
+    text-align: center;
+}
+
+
+.new-item img {
+    width: 250px;
+}
+
+.new-item:hover {
+    border: 1px solid black;
+}
+
+.new-item h6 {
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+
+.new-items button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.new-item button {
+    flex-basis: calc(30%);
+    margin: 20px 0px 0px 5px;
+    text-align: center;
+}
+
+.new button {
+    background-color: salmon;
+    border: 3px solid black;
+    color: #fff;
+    display: inline-block;
+    font-size: .6em;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 140px;
+    text-align: center;
+}
+.new button:hover {
+    background-color: #4deb5a;
+    color: black;
+}
+
+.nikes h1 {
+    width: 700px;
+    position: absolute;
+    left: 5%;
+    top: -125px;
+    font-size: 75px;
+}
+
+.nike {
+    position: absolute;
+    top: 1500px;
+}
+
+.nike-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.nike-item {
+    flex-basis: calc(20% - 60px);
+    margin: 10px 40px;
+    text-align: center;
+}
+
+
+.nike-item img {
+    width: 250px;
+}
+
+.nike-item:hover {
+    border: 1px solid black;
+}
+
+.nike-item h6 {
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+.nike-items button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.nike-item button {
+    flex-basis: calc(30%);
+    margin: 20px 0px 0px 5px;
+    text-align: center;
+}
+
+.nike button {
+    background-color: salmon;
+    border: 3px solid black;
+    color: #fff;
+    display: inline-block;
+    font-size: .6em;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 140px;
+    text-align: center;
+}
+.nike button:hover {
+    background-color: #4deb5a;
+    color: black;
+}
+
+.jordans h1 {
+    width: 700px;
+    position: absolute;
+    left: 5%;
+    top: -125px;
+    font-size: 75px;
+}
+
+.jordan {
+    position: absolute;
+    top: 2000px;
+}
+
+.jordan-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.jordan-item {
+    flex-basis: calc(20% - 60px);
+    margin: 10px 40px;
+    text-align: center;
+}
+
+.jordan-item img {
+    width: 250px;
+}
+
+.jordan-item:hover {
+    border: 1px solid black;
+}
+
+.jordan-item h6 {
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+
+.jordan-items button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.jordan-item button {
+    flex-basis: calc(30%);
+    margin: 20px 0px 0px 5px;
+    text-align: center;
+}
+
+.jordan button {
+    background-color: salmon;
+    border: 3px solid black;
+    color: #fff;
+    display: inline-block;
+    font-size: .6em;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 140px;
+    text-align: center;
+}
+.jordan button:hover {
+    background-color: #4deb5a;
+    color: black;
+}
+
+.others h1 {
+    width: 700px;
+    position: absolute;
+    left: 5%;
+    top: -125px;
+    font-size: 75px;
+}
+
+.other {
+    position: absolute;
+    top: 2500px;
+}
+
+.other-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.other-item {
+    flex-basis: calc(20% - 60px);
+    margin: 10px 40px;
+    text-align: center;
+}
+
+.other-item img {
+    width: 250px;
+}
+
+.other-item:hover {
+    border: 1px solid black;
+}
+
+.other-item h6 {
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+
+.other-items button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.other-item button {
+    flex-basis: calc(30%);
+    margin: 20px 0px 0px 5px;
+    text-align: center;
+}
+
+.other button {
+    background-color: salmon;
+    border: 3px solid black;
+    color: #fff;
+    display: inline-block;
+    font-size: .6em;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 140px;
+    text-align: center;
+}
+.other button:hover {
+    background-color: #4deb5a;
+    color: black;
+}
+
+h4 {
+    position: absolute;
+    top: 3000px;
+    padding: 15px;
+}
+
+
+
+/* animations */
+.main {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.title img {
+    transform: scale(0);
+    animation: scaleUp 1s forwards;
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.main img {
+    transform: scale(0);
+    animation: scaleUp 1s forwards;
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+nav li {
+    transform: translateX(-50px);
+    opacity: 0;
+    animation: moveIn 1.1s forwards;
+}
+
+@keyframes moveIn {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.typewriter h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 1s steps(15) 1 alternate,
+        blink 10000ms steps(1) infinite normal;
+    border-right: .05em solid black;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: transparent;
+    }
+
+    to {
+        border-color: transparent;
+    }
+}
+
+/*media querys*/
+
+@media only screen and (max-width: 1025px) {
+
+    .title img {
+        position: absolute;
+        left: 32.5%;
+    }
+
+    nav li {
+        margin-top: 10px;
+    }
+
+    .main h1 {
+        font-size: 70px;
+        left: 50%;
+    }
+
+    .main img {
+        width: 300px;
+    }
+
+    .main h5 {
+        font-size: 18px;
+        width: 450px;
+        position: absolute;
+        top: 325px;
+        left: 42.5%;
+    }
+
+    .button {
+        position: absolute;
+        top: 650px;
+        width: 150px;
+        left: 58.5%;
+    }
+
+    .search img {
+        position: absolute;
+        left: 80%;
+
+    }
+
+    .new {
+        position: absolute;
+        top: 850px;
+    }
+
+    .nike {
+        position: relative;
+        top: 1500px;
+    }
+
+    .nikes h1 {
+        position: absolute;
+        top: -112.5px;
+    }
+
+    .nike-items {
+        position: absolute;
+        top: 50px;
+    }
+
+    .jordan {
+        position: relative;
+        top: 2450px;
+    }
+
+    .jordans h1 {
+        position: absolute;
+        top: -112.5px;
+    }
+
+    .jordan-items {
+        position: absolute;
+        top: 50px;
+    }
+
+    .other {
+        position: relative;
+        top: 3400px;
+    }
+
+    .others h1 {
+        position: absolute;
+        top: -112.5px;
+    }
+
+    .other-items {
+        position: absolute;
+        top: 50px;
+    }
+
+    .h4 {
+        position: absolute;
+        top: 500px;
+    }
+
+}
