@@ -212,7 +212,7 @@ window.onload = function () {
                             Basket Total <br> <i> (6.5% Tax)</i>
                         </h4>
                         <h4 class="basketTotal">
-                            $${((cartCost - 30)*1.065).toFixed(2)}
+                            $${((cartCost)*1.065).toFixed(2)}
                         </h4>
                     </div>
                 `;
