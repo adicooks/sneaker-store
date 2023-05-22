@@ -2,10 +2,13 @@
     font-family: 'Poppins';
 }
 
+
 body {
     margin: 0;
     overscroll-behavior: none;
     background: lightcyan;
+    font-family: 'Poppins';
+    overflow-x: hidden;
 }
 
 
@@ -63,7 +66,6 @@ nav a:hover {
     top: 32.5px;
     width: 40px;
     height: 40px;
-    right: 100px;
     color: black;
 }
 
@@ -97,8 +99,6 @@ nav a:hover {
     right: 0px;
 }
 
-
-
 .title img {
     width: 275px;
     position: absolute;
@@ -106,126 +106,57 @@ nav a:hover {
     top: 10px;
 }
 
-.container,
-.products-container {
-    max-width: 650px;
-    justify-content: space-around;
+.container {
+    width: 960px;
     margin: 0 auto;
-    margin-top: 50px;
 }
 
-.product-header {
-    width: 100%;
-    max-width: 650px;
-    display: flex;
-    justify-content: flex-start;
-    border-bottom: 4px solid lightgrey;
-    margin: 0 auto;
-    font-weight: bolder;
+.product-info {
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 235px;
 }
-
-.product-title {
-    width: 55%;
-    font-weight: bolder;
-}
-
-
-.product {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-}
-
-.product img {
-    width: 125px;
-}
-
-.product-details {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-}
-
-.product-title {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.product-size {
-    color: gray;
-    font-size: 14px;
-}
-
-.product-price {
-    width: 25%;
-}
-
-.product-quantity {
-    width: 40%;
-    display: flex;
-    align-items: center;
-}
-
-.quantity-value {
-    margin: 0 10px;
-}
-
-.product-total {
-    width: 10%;
-
-}
-
-.price,
-.quantity,
-.total {
-    display: flex;
-    align-items: center;
-}
-
-.price {
-    width: 21.5%;
+.product-image img {
+    height: 400px;
     position: relative;
+    right: 50px;
+
 }
 
-.quantity {
-    width: 34%;
+.product-info {
+    padding: 20px;
 }
 
-.total {
-    width: 10%;
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    width: 800px;
 }
 
-.product-price {
+p {
+    margin-bottom: 10px;
+    text-align:justify;
+    font-size: larger;
+    width: 640px;
+}
+
+button {
+    background-color: salmon;
+    border: 3px solid black;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 425px;
+    text-align: center;
+}
+
+footer {
     position: relative;
-    right: 9%;
-}
-
-.product-quantity {
-    position: relative;
-    right: 4.5%;
-}
-
-.basketTotalContainer {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    padding: 10px 0;
-
-}
-
-.basketTotalTitle {
-    width: 30%;
-    border: 1px solid black;
-    border-right: transparent;
-    padding: 5px;
-}
-
-.basketTotal {
-    width: 10%;
-    border: 1px solid black;
-    padding: 15px;
-
-
+    padding: 20px;
+    font-size: 16px;
+    top: 50px;
 }
