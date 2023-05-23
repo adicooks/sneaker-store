@@ -76,7 +76,7 @@ nav a:hover {
     top: 17px;
 }
 
-.icons  {
+.icons {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -216,6 +216,7 @@ nav a:hover {
     width: 140px;
     text-align: center;
 }
+
 .new button:hover {
     background-color: #4deb5a;
     color: black;
@@ -223,8 +224,66 @@ nav a:hover {
 
 h4 {
     position: absolute;
-    top: 2500px;
+    top: 2200px;
     padding: 15px;
+}
+
+
+.contact-container {
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    resize: none;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: salmon;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    align-self: flex-start;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff7b6b;
 }
 
 

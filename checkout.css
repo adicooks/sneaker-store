@@ -317,7 +317,7 @@ button:active {
     border-top-right-radius: 0;
 }
 
-.container .wrapper .checkout-text .buy-button {
+.container .wrapper .checkout-text #buy-button {
     width: 100%;
     padding: 8px 10px;
     background-color: var(--Gold);
@@ -352,6 +352,10 @@ input::-webkit-inner-spin-button {
     font-weight: bold;
     color: #34a9ff;
     text-decoration: underline;
+}
+
+.product-img {
+    border-radius: 15px;
 }
 
 /* Media Queries */

@@ -118,9 +118,10 @@ nav a:hover {
     top: 235px;
 }
 .product-image img {
-    height: 400px;
+    height: 250px;
     position: relative;
-    right: 50px;
+    right: 150px;
+    top: 50px;
 
 }
 
@@ -150,13 +151,14 @@ button {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 10px;
-    width: 425px;
+    width: 225px;
     text-align: center;
+    margin-left: 200px;
 }
 
 footer {
     position: relative;
     padding: 20px;
     font-size: 16px;
-    top: 50px;
+    top: 200px;
 }

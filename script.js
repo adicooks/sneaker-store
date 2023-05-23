@@ -148,16 +148,23 @@ window.onload = function () {
               `;
                 });
 
+                let cartTotal = cartCost * 1.065;
+                cartTotal = cartTotal.toFixed(2);
+
+
                 productContainer.innerHTML += `
                     <div class="basketTotalContainer">
                         <h4 class="basketTotalTitle">
                             Basket Total <br> <i> (6.5% Tax)</i>
                         </h4>
                         <h4 class="basketTotal">
-                            $${(cartCost * 1.065).toFixed(2)}
+                            $${cartTotal}
                         </h4>
                     </div>
                 `;
+
+                const checkoutButton = document.getElementById("checkoutButton");
+                checkoutButton.innerHTML = `Checkout - $${cartTotal}`;
 
                 let removeButtons = document.querySelectorAll(
                     ".product ion-icon.remove-item"
