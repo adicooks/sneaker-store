@@ -394,8 +394,8 @@ nav li {
     }
 
     .main h1 {
-        font-size: 70px;
-        left: 50%;
+        font-size: 60px;
+        top: 230px;
     }
 
     .main img {
@@ -412,15 +412,16 @@ nav li {
 
     .button {
         position: absolute;
-        top: 650px;
+        top: 675px;
         width: 150px;
         left: 58.5%;
     }
 
-    .search img {
-        position: absolute;
-        left: 80%;
-
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 50px;
     }
 
     .new {
@@ -433,4 +434,219 @@ nav li {
         top: 500px;
     }
 
+    h4 > p {
+        position: relative;
+        top: 1000px;
+    }
+
 }
+
+@media only screen and (max-width: 800px) {
+
+    .title img {
+        position: absolute;
+        left: 32.5%;
+    }
+
+    nav li {
+        margin-top: 10px;
+    }
+
+    .main h1 {
+        font-size: 60px;
+        top: 230px;
+    }
+
+    .main img {
+        width: 275px;
+    }
+
+    .main h5 {
+        font-size: 16px;
+        width: 400px;
+        position: absolute;
+        top: 335px;
+        left: 42.5%;
+    }
+
+    .button {
+        position: absolute;
+        top: 635px;
+        width: 150px;
+        left: 58.5%;
+    }
+
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 30px;
+    }
+
+    .new {
+        position: absolute;
+        top: 850px;
+    }
+
+    .new-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .h4 {
+        position: absolute;
+        top: 500px;
+    }
+
+    h4 > p {
+        position: relative;
+        top: 3500px;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    .title img {
+        position: absolute;
+        left: 25%;
+    }
+
+    nav li {
+        margin-top: 10px;
+    }
+
+    .main h1 {
+        font-size: 80px;
+        top: 685px;
+        left: 23%;
+    }
+
+    .main img {
+        width: 350px;
+        left: 25%;
+    }
+
+    .main h5 {
+        font-size: 20px;
+        width: 600px;
+        position: absolute;
+        top: 835px;
+        left: 10%;
+    }
+
+    .button {
+        position: absolute;
+        top: 1150px;
+        width: 150px;
+        left: 35%;
+    }
+
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 30px;
+    }
+
+    .new {
+        position: absolute;
+        top: 1300px;
+    }
+
+    .new-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .h4 {
+        position: absolute;
+        top: 500px;
+    }
+
+    h4 > p {
+        position: relative;
+        top: 1500px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .title img {
+        position: absolute;
+        left: 10%;
+    }
+
+    nav li {
+        margin-top: 10px;
+    }
+
+    .main h1 {
+        font-size: 80px;
+        top: 685px;
+        left: 12.5%;
+    }
+
+    .main img {
+        width: 300px;
+        left: 20%;
+        top: 350px;
+    }
+
+    .main h5 {
+        font-size: 17px;
+        width: 400px;
+        position: absolute;
+        top: 835px;
+        left: 10%;
+    }
+
+    .button {
+        position: absolute;
+        top: 1160px;
+        width: 150px;
+        left: 35%;
+    }
+
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 30px;
+    }
+
+    .new {
+        position: absolute;
+        top: 1300px;
+    }
+
+    .news h1 {
+        font-size: 60px;
+        top: -125px;
+    }
+
+    .new-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .h4 {
+        position: absolute;
+        top: 500px;
+    }
+
+    h4 > p {
+        position: relative;
+        top: 4000px;
+    }
+
+}
+
+

@@ -288,39 +288,15 @@ nav li {
         margin-top: 10px;
     }
 
-    .main h1 {
-        font-size: 70px;
-        left: 50%;
-    }
-
-    .main img {
-        width: 300px;
-    }
-
-    .main h5 {
-        font-size: 18px;
-        width: 450px;
-        position: absolute;
-        top: 325px;
-        left: 42.5%;
-    }
-
-    .button {
-        position: absolute;
-        top: 650px;
-        width: 150px;
-        left: 58.5%;
-    }
-
-    .search img {
-        position: absolute;
-        left: 80%;
-
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 50px;
     }
 
     .new {
-        position: absolute;
-        top: 850px;
+        top: 400px;
     }
 
     .h4 {
@@ -328,4 +304,102 @@ nav li {
         top: 500px;
     }
 
+    h4 > p {
+        position: relative;
+        top: 1250px;
+    }
+
 }
+
+@media only screen and (max-width: 800px) {
+
+    .title img {
+        position: absolute;
+        left: 32.5%;
+    }
+
+    nav li {
+        margin-top: 10px;
+    }
+
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 30px;
+    }
+
+    .new {
+        position: absolute;
+        top: 400px;
+    }
+
+    .new-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .h4 {
+        position: absolute;
+        top: 500px;
+    }
+
+    h4 > p {
+        position: relative;
+        top: 1500px;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .title img {
+        position: absolute;
+        left: 10%;
+    }
+
+    nav li {
+        margin-top: 10px;
+    }
+
+
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 30px;
+    }
+
+    .new {
+        position: absolute;
+        top: 400px;
+    }
+
+    .news h1 {
+        font-size: 60px;
+        top: -125px;
+    }
+
+    .new-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .h4 {
+        position: absolute;
+        top: 500px;
+    }
+
+    h4 > p {
+        position: relative;
+        top: 3500px;
+    }
+
+}
+
+
