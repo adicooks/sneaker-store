@@ -649,4 +649,45 @@ nav li {
 
 }
 
+@media only screen {
+    .title img {
+        position: absolute;
+        left: 0%;
+        width: 200px
+    }
+
+    .main h1 {
+        font-size: 65px;
+        top: 785px;
+        left: 12.5%;
+    }
+
+    .main img {
+        width: 300px;
+        left: 10%;
+        top: 450px;
+    }
+
+    .new {
+        position: absolute;
+        top: 1400px;
+    }
+
+    .news h1 {
+        font-size: 45px;
+    }
+
+    .button {
+        position: absolute;
+        top: 1310px;
+        width: 150px;
+        left: 35%;
+    }
+
+    nav li {
+        margin-top: 10px;
+    }
+
+
+}
 

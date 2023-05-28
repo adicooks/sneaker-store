@@ -247,3 +247,31 @@ nav li {
     }
 
 }
+
+@media only screen {
+    .product-image img {
+        height: 175px;
+    }
+
+    .product-info {
+        top: 750px;
+        left: 5%;
+        font-size: 15px;
+    }
+
+    .product-info p {
+        width: 300px;
+    }
+
+    .title img {
+        position: absolute;
+        left: 0%;
+        width: 200px
+    }
+
+    nav li {
+        margin-top: 10px;
+    }
+
+
+}

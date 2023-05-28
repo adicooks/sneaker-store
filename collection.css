@@ -402,4 +402,28 @@ nav li {
 
 }
 
+@media only screen {
+
+    .title img {
+        position: absolute;
+        left: 0%;
+        width: 200px
+    }
+
+    .new {
+        position: absolute;
+        top: 550px;
+    }
+
+    .news h1 {
+        font-size: 50px;
+        top: -125px;
+    }
+
+    nav li {
+        margin-top: 10px;
+    }
+
+}
+
 

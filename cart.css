@@ -254,4 +254,22 @@ button {
         left: 0%;
     }
 
+    nav li {
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen {
+
+    .title img {
+        position: absolute;
+        left: 0%;
+        width: 200px
+    }
+
+    nav li {
+        margin-top: 10px;
+    }
+
 }
