@@ -248,7 +248,7 @@ nav li {
 
 }
 
-@media only screen {
+@media only screen and (max-width: 375px) {
     .product-image img {
         height: 175px;
     }

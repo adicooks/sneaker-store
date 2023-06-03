@@ -260,7 +260,7 @@ button {
 
 }
 
-@media only screen {
+@media only screen and (max-width: 375px) {
 
     .title img {
         position: absolute;
